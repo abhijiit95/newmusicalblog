@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+{% block title %} Home {% endblock title %}
+{% block homeactive %} active {% endblock homeactive %}
+{% block body %}
+<div class="container my-3">
+   <div class="jumbotron">
+  <h1 class="display-4">Welcome to Abhijit's Musical Blog...</h1>
+  <p class="lead">this is a social musical blog where i post some intersting fact of world of Music,Musical News,Information about typical folk Musical instruments and lots more.</p>
+  <hr class="my-4">
+  <p>“You have to, take a deep breath. and allow the music to flow through you. Revel in it, allow yourself to awe. When you play allow the music to break your heart with its beauty.” – Kelly White
+
+  </p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Go to Blog</a>
+  </div>
+
+</div>
+
+<div class="container">
+<h2>popular blogpost</h2>
+<div class="row no-gutters border rounded overflow-hidden flex-md-row my-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">World</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">The musician is perhaps the most modest of animals, but he is also the proudest</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+
+        <div class="col-auto d-none d-lg-block">
+        </div>
+        
+      </div>
+</div>
+{% endblock body %}

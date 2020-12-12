@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+
+{% block title %}About{% endblock title %}
+{% block aboutactive %} active {% endblock aboutactive %}
+{% block body %}
+<div class="container">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/images/style.css">
+    <title>About Me </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Abhijit Meshram</h1>
+        <h2> Fullstack Developer
+            (React And Django)
+        </h2>
+        <div class="image">
+            <img src="/static/images/abhi.png" alt="Photograph of me">
+        </div>
+        <p>
+            I’m a front-end web developer with some basic project experience.i have started my career with language Python and Django framework.i made some interesting project on e-shopping site and blogging app.Although I'm very familiar with using frameworks, my websites are primarily hand-coded using HTML5, CSS3, JavaScript.
+
+With a strong emphasis on "Progressive Enhancement", I look for creative ways to push the boundaries of website front-end code without compromising on browser support and performance.
+
+In a quest for always keeping myself updated, I read books and attend conferences & meetups.
+        </p>
+        <a href="./contact" class="button">Get In Touch</a>
+    </div>
+    
+</body>
+</html>
+</div>
+
+{% endblock body %}
