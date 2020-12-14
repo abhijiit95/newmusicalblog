@@ -1,2 +1,8 @@
 ENV/
 __pycache__/
+Procfile
+db.sqlite3
+iCoder/.gitignore
+project/
+requirements.txt
+runtime.txt
